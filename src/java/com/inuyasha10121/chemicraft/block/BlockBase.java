@@ -1,4 +1,4 @@
-package com.inuyasha10121.chemicraft.blocks;
+package com.inuyasha10121.chemicraft.block;
 
 import com.inuyasha10121.chemicraft.Chemicraft;
 

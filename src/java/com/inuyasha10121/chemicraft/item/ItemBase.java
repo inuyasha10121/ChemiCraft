@@ -1,4 +1,4 @@
-package com.inuyasha10121.chemicraft.items;
+package com.inuyasha10121.chemicraft.item;
 
 import com.inuyasha10121.chemicraft.Chemicraft;
 

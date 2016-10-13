@@ -1,4 +1,4 @@
-package com.inuyasha10121.chemicraft.items;
+package com.inuyasha10121.chemicraft.item;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;

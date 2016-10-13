@@ -1,6 +1,9 @@
 package com.inuyasha10121.chemicraft.inventory;
 
-import com.inuyasha10121.chemicraft.blocks.ModBlocks;
+import javax.annotation.Nullable;
+
+import com.inuyasha10121.chemicraft.block.ModBlocks;
+import com.inuyasha10121.chemicraft.item.crafting.ChemistryBenchManager;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -11,7 +14,6 @@ import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.inventory.Slot;
 import net.minecraft.inventory.SlotCrafting;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
@@ -58,7 +60,7 @@ public class ContainerChemistryBench extends Container{
      */
     public void onCraftMatrixChanged(IInventory inventoryIn)
     {
-        this.craftResult.setInventorySlotContents(0, CraftingManager.getInstance().findMatchingRecipe(this.craftMatrix, this.worldObj));
+        this.craftResult.setInventorySlotContents(0, ChemistryBenchManager.getInstance().findMatchingRecipe(this.craftMatrix, this.worldObj));
     }
 
     /**
@@ -90,6 +92,7 @@ public class ContainerChemistryBench extends Container{
     /**
      * Take a stack from the specified inventory slot.
      */
+    @Nullable
     public ItemStack transferStackInSlot(EntityPlayer playerIn, int index)
     {
         ItemStack itemstack = null;

@@ -1,8 +1,8 @@
 package com.inuyasha10121.chemicraft.proxy;
 
 import com.inuyasha10121.chemicraft.Chemicraft;
-import com.inuyasha10121.chemicraft.blocks.ModBlocks;
-import com.inuyasha10121.chemicraft.items.ModItems;
+import com.inuyasha10121.chemicraft.block.ModBlocks;
+import com.inuyasha10121.chemicraft.item.ModItems;
 import com.inuyasha10121.chemicraft.network.ModGuiHandler;
 import com.inuyasha10121.chemicraft.recipe.ModRecipes;
 
