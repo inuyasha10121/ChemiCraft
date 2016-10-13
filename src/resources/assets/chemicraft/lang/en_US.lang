@@ -1,0 +1,10 @@
+itemGroup.tabChemicraft=Chemicraft
+item.itemEmptyFlask.name=Empty Flask
+item.itemPlatinumIngot.name=Platinum Ingot
+item.itemPlatinumElectrode.name=Platinum Electrode
+item.itemChemistryNotebook.name=Chemistry Notebook
+item.itemActivatedCharcoal.name=Activated Charcoal
+tile.blockPlatinumOre.name=Platinum Ore
+tile.blockChemistryBench.name=Chemistry Workbench
+tile.blockAnaerobicFurnace.name=Anaerobic Furnace
+tile.blockTestBlock.name=Test Block

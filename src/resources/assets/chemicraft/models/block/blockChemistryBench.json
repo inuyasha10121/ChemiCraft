@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "chemicraft:blocks/blockChemistryBenchSide",
+        "down": "chemicraft:blocks/blockChemistryBenchSide",
+        "up": "chemicraft:blocks/blockChemistryBenchTop",
+        "north": "chemicraft:blocks/blockChemistryBenchSide",
+        "east": "chemicraft:blocks/blockChemistryBenchSide",
+        "south": "chemicraft:blocks/blockChemistryBenchSide",
+        "west": "chemicraft:blocks/blockChemistryBenchSide"
+    }
+}
