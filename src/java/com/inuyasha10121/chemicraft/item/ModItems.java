@@ -9,7 +9,7 @@ public class ModItems {
 	
 	public static void registerItems()
 	{
-		itemEmptyFlask = register(new ItemBase("itemEmptyFlask"));
+		itemEmptyFlask = register(new ItemEmptyFlask());
 		itemPlatinumIngot = register(new ItemBase("itemPlatinumIngot"));
 	}
 	
